@@ -1,11 +1,12 @@
 
 .hero-section
 {
-    background:url('../assets/hero-bg.png');
+    background:url('../assets/hero-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
 
     color: white;
+    padding-bottom:2rem;
 }
 .logo
 {
@@ -68,8 +69,8 @@ h3
 }
 
 /* Counter coode */
-.wrap {
-    position: absolute;
+
+  .wrap {
     bottom: 0;
     top: 0;
     left: 0;
@@ -91,7 +92,7 @@ h3
   }
   h1 strong {
     font-weight: 400;
-    color: black;
+    color: #ea4c4c;
   }
   
   h2 {
@@ -129,6 +130,7 @@ h3
     height: 110px;
     width: 100px;
     margin-right: 10px;
+    background-color: #fff;
     border-radius: 8px;
     -moz-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
     -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
@@ -144,7 +146,7 @@ h3
     margin: auto;
     font: normal 5.94em/107px "Lato";
     font-weight: 700;
-    color: black;
+    color: #de4848;
   }
   .countdown .figure .top:after, .countdown .figure .bottom-back:after {
     content: "";
@@ -158,6 +160,7 @@ h3
   }
   .countdown .figure .top {
     z-index: 3;
+    background-color: #f7f7f7;
     transform-origin: 50% 100%;
     -webkit-transform-origin: 50% 100%;
     -moz-border-radius-topleft: 10px;
@@ -189,6 +192,7 @@ h3
     top: 0;
     height: 50%;
     overflow: hidden;
+    background-color: #f7f7f7;
     -moz-border-radius-topleft: 10px;
     -webkit-border-top-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -213,6 +217,7 @@ h3
   .countdown .figure .top-back {
     z-index: 4;
     bottom: 0;
+    background-color: #fff;
     -webkit-transform-origin: 50% 0;
     transform-origin: 50% 0;
     -moz-transform: perspective(200px) rotateX(180deg);
@@ -233,3 +238,4 @@ h3
     right: 0;
     margin: auto;
   }
+  
