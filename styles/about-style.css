@@ -1,0 +1,36 @@
+.about-section
+{
+    display: flex;
+    gap: 5rem;
+    padding: 4rem 6rem;
+    color: white;
+    background: url('../assets/about-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-area
+{
+    position: relative;
+}
+.text-area p
+{
+    padding-left: 8rem;
+    padding-top: 5rem;
+    line-height: 1.8rem;
+    width: 40rem;
+}
+.nav-title
+{
+    position: absolute;
+    left: -10rem;
+    top: 40%;
+    font-size: 100px;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    font-family: 'ocra';
+    opacity: .3;
+}
+.about-img
+{
+    width: 500px;
+}
