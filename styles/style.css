@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'origami'; /*a name to be used later*/
+    src: url('../assets/fonts/Origami.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'ocra'; /*a name to be used later*/
+    src: url('../assets/fonts/OCRAEXT.TTF'); /*URL to font*/
+}
+@font-face {
+    font-family: 'codepro'; /*a name to be used later*/
+    src: url('../assets/fonts/CodePro.ttf'); /*URL to font*/
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
